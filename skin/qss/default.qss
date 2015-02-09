@@ -1,0 +1,280 @@
+QMainWindow{
+    color:white;
+    /*background-color: white; */
+    background-image: url("backgroudImg");
+    background-repeat:no-repeat;
+}
+
+QLabel{
+    color:white;
+}
+QPushButton{
+    color:white;
+    background-color:rgba(10,10,10,40);
+}
+QPushButton:hover{
+    color:white;
+    background-color:rgba(10,10,10,60);
+}
+QPushButton:pressed{
+    color:white;
+    background-color:rgba(10,10,10,80);
+}
+
+QPushButton#downloadBtn{
+    color:white;
+    border-radius:4px;
+    background-color:rgba(10,10,10,30);
+}
+QPushButton#downloadBtn:hover{
+    color:white;
+    background-color:rgba(10,10,10,45);
+}
+QPushButton#downloadBtn:pressed{
+    color:white;
+    background-color:rgba(10,10,10,60);
+}
+
+QPushButton#transparentBtn{
+    border:none;
+    background-color:rgba(255,255,255,0);
+}
+
+
+QPushButton#titleBtns{
+    border:none;
+    background-color:rgba(255,255,255,0);
+}
+
+QPushButton#phoneFileManagerPathBtns{
+    margin:2px;
+    padding:2px;
+    color:white;
+    background-color:rgba(10,10,10,50);
+}
+QPushButton#phoneListExpandBtn{
+    border:none;
+    background-color:rgba(10,10,10,0);
+}
+QPushButton#phoneListExpandBtn:pressed{
+    border-radius:3px;
+    background-color:rgba(10,10,10,20);
+}
+
+QPushButton#navBtn{
+    color:white;
+    background-color:rgba(10,10,10,60);
+}
+QPushButton#navBtn:hover{
+    color:white;
+    background-color:rgba(10,10,10,60);
+}
+QPushButton#navBtn:pressed{
+    color:white;
+    background-color:rgba(10,10,10,60);
+}
+
+QPushButton#gradientBtn{
+    color:white;
+    border-radius:3px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                        stop:0 rgba(10,10,10,40), stop: 0.6 rgba(10,10,10,120), stop:1 rgba(10,10,10,80))
+}
+QPushButton#gradientBtn:disabled{
+    color:grey;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                        stop:0 rgba(10,10,10,30), stop: 0.6 rgba(10,10,10,30), stop:1 rgba(10,10,10,30))
+}
+QPushButton#gradientBtn:hover{
+    color:white;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                        stop:0 rgba(10,10,10,80), stop: 0.6 rgba(10,10,10,80), stop:1 rgba(10,10,10,70))
+}
+QPushButton#gradientBtn:pressed{
+    color:white;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                        stop:0 rgba(10,10,10,100), stop: 0.6 rgba(10,10,10,20), stop:1 rgba(10,10,10,120))
+}
+
+
+QListView::item{
+    color:white;
+}
+QListView::item:selected{
+    background-color:rgba(10,10,10,40);
+}
+QListView#navListWidget{
+    border:none;
+    background-color:rgba(255,255,255,0);
+}
+QListView#navListWidget::item:selected{
+    /*border-radius: 3px;*/
+    background-color:rgba(10,10,10,50);
+}
+QListView#fileListWidget{
+    border:none;
+    background-color:rgba(255,255,255,0);
+    border-top:2px solid rgba(10,10,10,30);
+}
+QScrollArea{
+    background-color:rgba(255,255,255,0);
+    border:none;
+}
+
+QScrollBar:vertical {
+     border: 0px solid grey;
+     background: rgba(255,255,255,0);
+     width: 15px;
+     margin: 1px 0 1px 0;
+ }
+QScrollBar::handle:vertical {
+     background: rgba(10,10,10,60);;
+     min-height: 20px;
+     border-radius: 5px;
+}
+ QScrollBar::add-line:vertical {
+     border: 0px solid grey;
+     height: 0px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::sub-line:vertical {
+     border: 0px solid grey;
+     background: #32CC99;
+     height: 0px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+     border: 2px solid grey;
+     width: 3px;
+     height: 0px;
+     background: white;
+ }
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+     background: none;
+ }
+
+QScrollArea#softwareListArea{
+    border:none;
+    background-color:rgba(255,255,255,0);
+    border-top:2px solid rgba(10,10,10,30);
+}
+#PaiHangBangWidgetLeftNaviList{
+    border:none;
+    background-color:rgba(255,255,255,0);
+    border-right:1px solid rgba(105,191,252,220);
+}
+#PaiHangBangWidgetLeftNaviList::item{
+    border:none;
+    color:white;
+}
+#PaiHangBangWidgetLeftNaviList::item:selected{
+    border:none;
+    color:rgba(105,191,252,250);
+}
+#MusicListWidgetListArea,#downloadArea{
+    border:none;
+}
+
+QMainWindow QLineEdit {
+    border: 1px solid gray;
+    background:rgba(10,10,10,20);
+    selection-background-color: darkgray;
+}
+QLineEdit#editSearch{
+    border: 1px solid rgba(10,10,10,60);
+    color:white;
+    margin:0px;
+    padding:4px;
+    background:rgba(255,255,255,0);
+    selection-background-color: darkgray;
+}
+
+QSlider::groove:horizontal {
+    height: 6px;
+    background: rgba(255,255,255,30);
+    position: absolute;
+    left: 4px; right: 4px;
+}
+
+QSlider::handle:horizontal {
+    height: 9px;
+    width: 9px;
+    background: rgba(105,186,249,220);
+    margin: 0 -4px;
+    border-radius: 3px;
+}
+QSlider::add-page:horizontal {
+    background: rgba(10,10,10,20);;
+}
+
+QSlider::sub-page:horizontal {
+    background: rgba(105,186,249,120);
+}
+
+QProgressBar#downloadBar {
+    color:white;
+    background-color: rgba(255,255,255,30);
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+}
+
+QProgressBar#downloadBar::chunk {
+    background-color: rgba(255,255,255,80);
+    width: 10px;
+    border-radius: 3px;
+}
+
+QWidget#transparentWidget{
+    background-color:rgba(255,255,255,0);
+}
+
+QWidget#softwareItemWidget{
+    background-color:rgba(10,10,10,15);
+}
+#showWidget{
+    color:white;
+    /*background-color: white;*/
+    background-image: url("backgroudImg");
+    background-repeat:no-repeat;
+    border-top:5px solid qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                            stop:0 rgba(10,10,10,10), stop: 0.8 rgba(10,10,10,130), stop:1 rgba(10,10,10,160));
+    border-right:5px solid qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                            stop:0 rgba(10,10,10,160), stop: 0.2 rgba(10,10,10,130), stop:1 rgba(10,10,10,10));
+    border-bottom:5px solid qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                            stop:0 rgba(10,10,10,160), stop: 0.2 rgba(10,10,10,130), stop:1 rgba(10,10,10,10));
+    border-left:5px solid qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                            stop:0 rgba(10,10,10,10), stop: 0.8 rgba(10,10,10,130), stop:1 rgba(10,10,10,160));
+
+}
+
+QPushButton#titleBarBtns{
+    border:none;
+    background-color:rgba(10,10,10,0);
+}
+QPushButton#titleBarBtns:hover{
+    border:none;
+    background-color:rgba(10,10,10,40);
+}
+
+QCheckBox {
+    spacing: 5px;
+    background-color:rgba(10,10,10,0);
+}
+
+QDialog QLabel{
+    color:black;
+}
+QDialog QListView::item{
+    color:black;
+}
+QDialog QPushButton{
+}
+QSplitter{
+    border:none;
+    background-color:rgba(10,10,10,0);
+}
