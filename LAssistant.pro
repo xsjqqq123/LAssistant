@@ -8,7 +8,7 @@ QT       += core gui network multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET =
+TARGET = LAssistant
 TEMPLATE = app
 
 target.files += LAssistants
