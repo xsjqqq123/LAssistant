@@ -1,0 +1,15 @@
+Source: lassistant
+Section: utils
+Priority: optional
+Maintainer: xusongjie <376186432@qq.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://mvgather.com/
+#Vcs-Git: git://git.debian.org/collab-maint/lassistant.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/lassistant.git;a=summary
+
+Package: lassistant
+Architecture: i386
+Depends: qt5-qmake, qtbase5-dev, gksu, android-tools-adb, libqt5multimedia5, libqt5widgets5,libqt5network5, libqt5gui5, libqt5core5a,libqt5multimedia5-plugins, fcitx-frontend-qt5,libqt5svg5, libgl1-mesa-glx, libstdc++6, libgcc1
+Description: Linux 安卓手机管理软件
+ LAssistant是linux下的安卓手机管理软件,L即代表linux,欢迎来官网提建议.
