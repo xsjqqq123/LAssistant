@@ -17,7 +17,7 @@ target.path = /usr/bin/
 icons.files += data/icons/LAssistants.png
 icons.path = /usr/share/pixmaps/
 
-desktop.files += data/desktop/LAssistant.desktop.desktop
+desktop.files += data/desktop/LAssistant.desktop
 desktop.path = /usr/share/applications/
 
 SOURCES += main.cpp\
