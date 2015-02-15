@@ -11,13 +11,13 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = LAssistant
 TEMPLATE = app
 
-target.files += LAssistants
+target.files += LAssistant
 target.path = /usr/bin/
 
-icons.files += data/icons/LAssistants.png
+icons.files += data/icons/LAssistant.png
 icons.path = /usr/share/pixmaps/
 
-desktop.files += data/desktop/LAssistant.desktop.desktop
+desktop.files += data/desktop/LAssistant.desktop
 desktop.path = /usr/share/applications/
 
 SOURCES += main.cpp\
